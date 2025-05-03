@@ -10,7 +10,7 @@
 
 - 🎓 2nd Year BSc Engineering student at **Chandpur Science and Technology University**
 - 💻 Passionate about **Software Engineering** and **building meaningful projects**
-- 💡 Currently exploring **C++ (OOP with Feynman's technique)** and **Qt** for desktop apps
+- 💡 Currently exploring **C++  and **Qt** for desktop apps
 - 🎯 Career Goal: Become a skilled **Full-stack Developer** and study **Software Engineering at the University of Tokyo**
 - ❤️ I enjoy solving real-world problems through code and turning ideas into reality
 
