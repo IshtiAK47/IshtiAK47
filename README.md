@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ishtiak 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=white&center=true&vCenter=true&width=435&lines=Information+Science+Student;C%2B%2B+%7C+Qt+Enthusiast;Aspiring+Full-stack+Developer;Learning+One+Day+at+a+Time" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=white&center=true&vCenter=true&width=435&lines=Information+Science+Student;C%2B%2B+%7C++Enthusiast;Aspiring+Full-stack+Developer;Learning+One+Day+at+a+Time" alt="Typing SVG" />
 </p>
 
 ---
