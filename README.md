@@ -44,6 +44,12 @@
 
 ---
 
+## 🧠 LeetCode Stats
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/IshtiAK47?theme=dark&font=Fira+Code&ext=contest" alt="LeetCode Stats" />
+</p>
+
 ## ✨ Fun Facts
 
 - 🧠 I learn best by **teaching what I understand** (Feynman method)
