@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishtiak Mahmood | Level 1 Developer</title>
+
+    <!-- Tailwind CSS for utility classes and layout -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts for the pixelated font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons, styled to fit the theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="min-h-screen p-4 sm:p-8">
+    <!-- Main Container -->
+    <div class="max-w-7xl mx-auto space-y-16">
+      <!-- Header/Navigation -->
+      <header
+        class="pixel-box flex flex-col sm:flex-row justify-between items-center text-center"
+      >
+        <h1 class="text-lg sm:text-xl mb-4 sm:mb-0">Ishtiak.dev</h1>
+        <nav class="flex flex-wrap justify-center gap-4 text-sm">
+          <a
+            href="#character-stats"
+            class="hover:text-highlight-color transition-colors"
+            >STATS</a
+          >
+          <a
+            href="#quest-log"
+            class="hover:text-highlight-color transition-colors"
+            >QUESTS</a
+          >
+          <a
+            href="#contact-terminal"
+            class="hover:text-highlight-color transition-colors"
+            >CONTACT</a
+          >
+        </nav>
+      </header>
+
+      <main class="space-y-24">
+        <!-- Hero Section -> Character Intro -->
+        <section
+          id="character-intro"
+          class="flex flex-col lg:flex-row items-center gap-8 fade-in-section"
+        >
+          <!-- Pixel Art Portrait -->
+          <div class="pixel-box w-full max-w-xs sm:max-w-sm">
+            <img
+              src="https://raw.githubusercontent.com/IshtiAK47/IshtiAK47/refs/heads/main/images/p1.jpg"
+              alt="Pixelated portrait of Ishtiak Mahmood"
+              class="w-full h-auto"
+            />
+            <div class="text-center mt-4">Ishtiak Mahmood</div>
+            <div class="text-center text-highlight-color mt-1">
+              Full-Stack Developer
+            </div>
+          </div>
+
+          <!-- Intro Text Box -->
+          <div class="pixel-box flex-1 w-full text-base sm:text-lg">
+            <h2
+              class="typewriter text-xl sm:text-2xl text-highlight-color mb-6"
+            >
+              Loading Character...
+            </h2>
+            <p class="mb-4">
+              A passionate developer-in-training, currently on a quest to master
+              the arcane arts of modern web technologies.
+            </p>
+            <p>
+              Equipped with a keen intellect for problem-solving and a desire to
+              forge legendary user experiences.
+            </p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-4">
+              <a href="#quest-log" class="pixel-btn">View Quest Log</a>
+              <a href="#contact-terminal" class="pixel-btn">Send Message</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -> Character Stats -->
+        <section id="character-stats" class="pixel-box fade-in-section">
+          <h2 class="section-title">CHARACTER STATS</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
+            <div>
+              <h3 class="text-lg text-highlight-color mb-4">ABILITIES</h3>
+              <p class="mb-6 text-sm leading-relaxed">
+                Pursuing a BSc in ICT Engineering. My core mission is to build
+                innovative web solutions that are both powerful and intuitive. I
+                thrive in collaborative party quests and am always eager to
+                grind for new skills.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-lg text-highlight-color mb-4">SKILL TREE</h3>
+              <div class="space-y-4 text-sm">
+                <!-- Skill Item -->
+                <div class="skill-item">
+                  <p>Frontend</p>
+                  <div
+                    class="w-full bg-background-color border-2 border-border-color mt-1"
+                  >
+                    <div class="bg-success-color h-4" style="width: 85%"></div>
+                  </div>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item">
+                  <p>Backend</p>
+                  <div
+                    class="w-full bg-background-color border-2 border-border-color mt-1"
+                  >
+                    <div class="bg-success-color h-4" style="width: 75%"></div>
+                  </div>
+                </div>
+                <!-- Skill Item -->
+                <div class="skill-item">
+                  <p>UI/UX Design</p>
+                  <div
+                    class="w-full bg-background-color border-2 border-border-color mt-1"
+                  >
+                    <div class="bg-warning-color h-4" style="width: 70%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section -> Quest Log -->
+        <section id="quest-log" class="pixel-box fade-in-section">
+          <h2 class="section-title">QUEST LOG</h2>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-8"
+          >
+            <!-- Quest Card 1 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/simplifile/refs/heads/main/pngegg(4).png"
+                alt="Project Screenshot"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">SimpliFile</h3>
+              <p class="text-xs leading-relaxed mb-4">
+                A Flutter Opensource file manager app based of Material 3
+                Expressive.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">Flutter</span>
+                <span class="text-xs bg-border-color px-2 py-1">Dart</span>
+                <span class="text-xs bg-border-color px-2 py-1">Android</span>
+              </div>
+              <div class="flex gap-4 text-sm">
+                <a
+                  href="https://github.com/IshtiAK47/simplifile/releases/tag/flutter"
+                  target="_blank"
+                  class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a
+                  href="https://github.com/IshtiAK47/simplifile"
+                  target="_blank"
+                  class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+
+            <!-- Quest Card 2 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/FlappyDoggoGame/refs/heads/main/icon/ipp.png"
+                alt="Project IPP"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">
+                Project IPP
+              </h3>
+              <p class="text-xs leading-relaxed mb-4">
+               IPP is a web application built to provide users with two engaging tests: a Personality Test based on the MBTI framework and a Stand Reveal Test inspired by JoJo's Bizarre Adventure to determine a suitable Stand based on a simple multiple-choice quiz. The results are calculated using the Gemini API for enhanced accuracy and dynamic responses.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">Next.Js</span>
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >React</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Tailwind CSS</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >TypeScript</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Genkit</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Gemini API</span
+                >
+              </div>
+              <div class="flex gap-4 text-sm">
+                <a href="https://ipp-blue.vercel.app/" class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a href="https://github.com/IshtiAK47/IPP" class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+
+            <!-- Quest Card 3 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/FlappyDoggo/refs/heads/main/assets/images/bg-pookiee.png"
+                alt="Project FlappyDoggo"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">
+                FlappyDoggo
+              </h3>
+              <p class="text-xs leading-relaxed mb-4">
+                Flappy Doggo 🐶 – A Flappy Bird-inspired browser game where you play as an adorable dog dodging skyscrapers. Features include a day/night cycle, animated clouds, custom music, and a hidden "Pookie" mode with a unique theme. Built with HTML5, CSS3, JavaScript, and Web Audio API, with local high score tracking and easy customization.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">HTML5</span>
+                <span class="text-xs bg-border-color px-2 py-1">CSS3</span>
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Javascript</span
+                >
+              </div>
+              <div class="flex gap-4 text-sm">
+                <a href="https://ishtiak47.github.io/FlappyDoggo/" class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a href="https://github.com/IshtiAK47/FlappyDoggo" class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+           <!-- Quest Card 4 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/FlappyDoggoGame/refs/heads/main/icon/fl.png"
+                alt="Project FlappyDoggo"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">
+                FlappyDoggo
+              </h3>
+              <p class="text-xs leading-relaxed mb-4">
+                Flappy Doggo 🐶 (Flutter) – A mobile game inspired by Flappy Bird, built with Flutter and Dart. Guide a cute dog through a procedurally generated cityscape with smooth touch controls, immersive audio, animated visuals, and a dynamic day/night cycle. Includes a local leaderboard and a hidden "Pookie" mode with exclusive themes. Pre-release APK available for Android.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">HTML5</span>
+                <span class="text-xs bg-border-color px-2 py-1">CSS3</span>
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Javascript</span
+                >
+              </div>
+              <div class="flex gap-4 text-sm">
+                <a href="https://github.com/IshtiAK47/FlappyDoggoGame/releases/tag/Android" class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a href="https://github.com/IshtiAK47/FlappyDoggoGame" class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+           <!-- Quest Card 5 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/FlappyDoggoGame/refs/heads/main/icon/anim.png"
+                alt="AniMerit"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">
+                AniMerit
+              </h3>
+              <p class="text-xs leading-relaxed mb-4">
+               AniMerit 🎥✨ – A modern anime discovery web app built with Next.js, TypeScript, and Tailwind CSS. It fetches real-time data from the Jikan API to display the Top 10 currently airing anime series and movies in a clean, responsive UI. Hosted on Vercel, AniMerit is easily extensible with future features like filters, dark mode, and more.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">Next.Js</span>
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >React</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Tailwind CSS</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >TypeScript</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Genkit</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Gemini API</span
+                >
+              </div>
+              <div class="flex gap-4 text-sm">
+                <a href="https://ani-merit.vercel.app/" class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a href="https://github.com/IshtiAK47/AniMerit" class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+           <!-- Quest Card 6 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/FlappyDoggoGame/refs/heads/main/icon/unsin.png"
+                alt="Project FlappyDoggo"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">
+                UnSin
+              </h3>
+              <p class="text-xs leading-relaxed mb-4">
+               UnSin 🔮 – A quiz-based web app that reveals which of the seven deadly sins (Lust, Gluttony, Greed, Sloth, Wrath, Envy, Pride) users align with most. Built with TypeScript, Tailwind CSS, and Firebase, it features an interactive 15-question quiz and leverages Gemini AI to analyze responses for intelligent results. The app includes responsive design, secure Firebase integration, and a clean, engaging user experience.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">Next.Js</span>
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >React</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Tailwind CSS</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >TypeScript</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Genkit</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Gemini API</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  ><br></span
+                >
+              <div class="flex gap-4 text-sm">
+                <a href="https://un-sin.vercel.app/" class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a href="https://github.com/IshtiAK47/UnSin" class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+           <!-- Quest Card 7 -->
+            <div
+              class="pixel-box group hover:border-highlight-color transition-colors duration-300"
+            >
+              <img
+                src="https://raw.githubusercontent.com/IshtiAK47/FlappyDoggoGame/refs/heads/main/icon/Screenshot%202025-08-21%20171422.png"
+                alt="Project Sligga"
+                class="w-full mb-4 border-4 border-border-color group-hover:border-highlight-color transition-colors"
+              />
+              <h3 class="text-lg text-highlight-color mb-2">
+                Sligga
+              </h3>
+              <p class="text-xs leading-relaxed mb-4">
+                it is an innovative web application designed to simplify the creation of presentations. By inputting basic information such as the topic, institution, date, and desired number of slides, users can generate a fully formatted PowerPoint presentation. The application harnesses the power of the Gemini API to intelligently generate slide content and search for relevant images, ensuring each presentation is both informative and visually appealing.<br /><br>
+
+Deployed on Vercel, Sligga offers a seamless user experience with its responsive design, making it accessible on both desktop and mobile devices. Whether you're a student preparing for a class presentation or a professional crafting a business pitch, Sligga streamlines the process, allowing you to focus on your message rather than formatting.
+              </p>
+             <div class="flex flex-wrap gap-2 mb-4">
+                <span class="text-xs bg-border-color px-2 py-1">Next.Js</span>
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >React</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Tailwind CSS</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >TypeScript</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Genkit</span
+                >
+                <span class="text-xs bg-border-color px-2 py-1"
+                  >Gemini API</span
+                >
+              </div>
+              <div class="flex gap-4 text-sm">
+                <a href="https://sligga.vercel.app/" class="hover:text-highlight-color"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+                <a href="https://github.com/IshtiAK47/Sligga" class="hover:text-highlight-color"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -> Contact Terminal -->
+        <section id="contact-terminal" class="pixel-box fade-in-section">
+          <h2 class="section-title">CONTACT TERMINAL</h2>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
+            <div class="space-y-6 text-sm">
+              <p>
+                Need to send a transmission? Use the form or connect via the
+                links below.
+              </p>
+              <div class="contact-item flex items-start gap-4">
+                <i
+                  class="fas fa-envelope text-highlight-color text-2xl mt-1"
+                ></i>
+                <div>
+                  <strong>Email:</strong><br />
+                  <a
+                    href="mailto:m64445.0@gmail.com"
+                    class="hover:text-highlight-color break-all"
+                    >m64445.0@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item flex items-start gap-4">
+                <i
+                  class="fas fa-map-marker-alt text-highlight-color text-2xl mt-1"
+                ></i>
+                <div>
+                  <strong>Location:</strong><br />
+                  Chandpur, Bangladesh
+                </div>
+              </div>
+              <div class="contact-item flex items-start gap-4">
+                <i
+                  class="fas fa-share-alt text-highlight-color text-2xl mt-1"
+                ></i>
+                <div>
+                  <strong>Socials:</strong><br />
+                  <div class="flex gap-4 mt-2">
+                    <a
+                      href="https://linkedin.com/in/ishtiak47"
+                      target="_blank"
+                      class="text-2xl hover:text-highlight-color"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      href="https://github.com/ishtiak47"
+                      target="_blank"
+                      class="text-2xl hover:text-highlight-color"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form class="space-y-4">
+              <div>
+                <label for="name" class="block mb-2 text-sm">NAME:</label>
+                <input
+                  type="text"
+                  id="name"
+                  required
+                  class="w-full p-2 bg-background-color border-2 border-border-color focus:border-highlight-color outline-none"
+                />
+              </div>
+              <div>
+                <label for="email" class="block mb-2 text-sm">EMAIL:</label>
+                <input
+                  type="email"
+                  id="email"
+                  required
+                  class="w-full p-2 bg-background-color border-2 border-border-color focus:border-highlight-color outline-none"
+                />
+              </div>
+              <div>
+                <label for="message" class="block mb-2 text-sm">MESSAGE:</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  required
+                  class="w-full p-2 bg-background-color border-2 border-border-color focus:border-highlight-color outline-none"
+                ></textarea>
+              </div>
+              <button type="submit" class="pixel-btn w-full">
+                Send Transmission
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="text-center text-xs text-gray-500 py-8">
+        <p>&copy; 2023 Ishtiak Mahmood. All rights reserved.</p>
+        <p>System restart not required.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
