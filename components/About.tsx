@@ -41,7 +41,7 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-slate-300 text-lg leading-relaxed">
-              I'm a dedicated developer-in-training with a keen interest in modern web 
+              I&apos;m a dedicated developer-in-training with a keen interest in modern web 
               technologies and mobile development. My journey in tech is driven by a 
               passion for problem-solving and creating intuitive user experiences.
             </p>

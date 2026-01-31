@@ -38,7 +38,7 @@ export default function Contact() {
             <span className="text-gradient">Get In Touch</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Let's create something amazing together
+            Let&apos;s create something amazing together
           </p>
         </motion.div>
 
