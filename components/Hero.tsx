@@ -122,7 +122,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-green-500 via-emerald-500 to-lime-500 rounded-2xl blur-2xl opacity-20" />
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="https://raw.githubusercontent.com/IshtiAK47/IshtiAK47/refs/heads/main/images/p1.jpg"
+                  src="https://raw.githubusercontent.com/IshtiAK47/IshtiAK47/refs/heads/main/components/1769852222694%7E3.png"
                   alt="Ishtiak Mahmood"
                   width={500}
                   height={500}
