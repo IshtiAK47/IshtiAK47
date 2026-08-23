@@ -37,4 +37,4 @@ I'm a passionate and disciplined **software engineering student** who enjoys bui
 
 ---
 
-⭐ *“Consistency beats intensity. Every single time.”*
+⭐ *“Consistency beats intensity. Every single time. But Obsession hits harder than both.”*
