@@ -11,7 +11,7 @@ I'm a passionate and disciplined **software engineering student** who enjoys bui
 
 - 🔧 Strong foundation in **C++**, **Data Structures & Algorithms**
 - 🌐 Primary stack: **JavaScript & TypeScript**
-- 🧠 Learn-by-teaching mindset (Feynman-style learning)
+- 🧠 I love Learn-by-teaching mindset (Feynman-style learning)
 - 📱 Interested in **desktop & Android app development**
 - 🌱 Focused on **clean code, problem-solving, and system thinking**
 
